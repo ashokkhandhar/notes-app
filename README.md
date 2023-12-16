@@ -26,7 +26,7 @@ Archive Page
 
 ## Live Link
 
-https://ashokkhandhar.github.io/notes-app/
+https://notes-by-ak.netlify.app/
 
 
 ## Run Locally

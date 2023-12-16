@@ -1,0 +1,140 @@
+@import url(./utility.css);
+
+.heading{
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    padding: 8px 1rem;
+}
+
+.logo > .material-icons-outlined{
+    font-size: 45px;
+}
+
+.heading-1 {
+    font-size: 2.5rem;
+}
+
+.nav {
+    margin-left: auto;
+    padding-right: 2rem;
+}
+
+.list{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.active-window{
+    text-decoration: underline;
+}
+
+.input-container {
+    width: 35vw;
+    margin-top: 2rem;
+    margin-left: 30vw;
+}
+
+.text-area{
+    width: 100%;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    background-color: #ffa11666;
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.title{
+    padding: 10px 10px 0 10px;
+    border-radius: 4px 4px 0 0;
+    font-weight:bolder;
+    font-size: 1rem;
+}
+
+.detail{
+    padding: 0 10px 10px 10px;
+    border-radius: 0 0 4px 4px;
+}
+
+.button {
+    background: transparent;
+    border: none;
+    color: var(--font-color);
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.button:active{
+    opacity: 1;
+}
+
+.add-btn{
+    right: 1.25rem;
+    bottom: -1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.notes-container, .archived-notes {
+    padding: 2rem 4rem;
+}
+
+.pinned-notes-container, .archived-notes-container{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.other-notes-container{
+    padding-top: 1rem;
+}
+
+.single-note {
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    width: 20vw;
+    align-self: flex-start;
+    padding: 0 6px 6px 6px;
+}
+
+.single-note span {
+    white-space: pre-wrap;
+    word-break: break-word;
+    align-self: flex-start;
+}
+
+.single-note:hover .btn{
+    visibility: visible;
+}
+
+.pin-archive{
+    margin-top: 1rem;
+}
+
+.del-btn {
+    color: var(--primary-color);
+    margin-left: auto;
+    align-self: flex-start;
+}
+
+.p-a-btn {
+    color: var(--primary-color);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}

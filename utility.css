@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+:root{
+    --font-color: #fafafa;
+    --primary-color: #FFA116;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.shadow {
+    box-shadow: 2px 2px 5px var(--primary-color);
+}
+
+.d-none{
+    display: none;
+}
+.d-flex{
+    display: flex;
+}
+
+.direction-row{
+    flex-direction: row;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.gap-sm{
+    gap: 0.5rem;
+}
+
+.gap-md{
+    gap: 2rem;
+}
+
+.v-visible {
+    visibility: visible;
+}
+
+.v-hidden {
+    visibility: hidden;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
